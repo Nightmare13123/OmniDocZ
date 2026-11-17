@@ -1,3 +1,6 @@
+[README.md](https://github.com/user-attachments/files/34949394/README.md)
+
+
 <div align="center">
 
 # 📄 OmniDocZ
@@ -17,7 +20,17 @@
   <b>Convert, edit, and merge across PDFs, Word (DOCX/ODT), Excel (XLSX/ODS/CSV), and images seamlessly with live spreadsheet modeling and edge AI—100% offline, zero cloud telemetry.</b>
 </p>
 
-[The Vision](#-the-nightmarezprotocol-vision) • [Key Differences](#-why-omnidocz) • [Multi-Format Engine](#-universal-multi-format-conversion--merging) • [Features](#-key-features) • [CLI](#-command-line-interface-cli) • [Quick Start](#-quick-start)
+<p align="center">
+  <a href="https://github.com/Nightmare13123/OmniDocZ/releases/latest">
+    <img src="https://img.shields.io/badge/Download_OmniDocZ_for_Windows-Latest_Release_%28.exe%29-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Download OmniDocZ for Windows" height="44"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub>Windows 10 / 11 (64-bit) • Free &amp; 100% Local • No Python required</sub>
+</p>
+
+[Download](#-quick-start) • [The Vision](#-the-nightmarezprotocol-vision) • [Key Differences](#-why-omnidocz) • [Multi-Format Engine](#-universal-multi-format-conversion--merging) • [Features](#-key-features) • [CLI](#-command-line-interface-cli) • [Quick Start](#-quick-start)
 
 </div>
 
@@ -127,11 +140,16 @@ python cli.py ocr-layer scan.pdf -o searchable_scan.pdf --lang en,es
 
 ## 🚀 Quick Start
 
+### Option 1: Windows Installer (Recommended — No Python Required)
+1. Click the big **[Download OmniDocZ for Windows](https://github.com/Nightmare13123/OmniDocZ/releases/latest)** button above (or open the **Releases** page).
+2. Under **Assets**, download **`OmniDocZ-Setup-4.4.0.exe`** (or the latest installer version).
+3. Run the installer and launch **OmniDocZ**. *(You can enable the optional local AI engine during setup or download it later from **Settings → AI Component**).*
+
 ### System Requirements
 * **Operating System:** Windows 10 or Windows 11 (64-bit). *(Linux & macOS planned in the roadmap)*.
-* **Python:** 3.10 or higher.
+* **Python (only if running from source):** 3.10 or higher.
 
-### Running from Source
+### Option 2: Running from Source
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Nightmare13123/OmniDocZ.git
@@ -158,5 +176,3 @@ OmniDocZ is an independent, open-ecosystem project committed to keeping document
 
 Engineered with dedication by **NightmareZDev** as the foundational stepping stone of **NightmareZProtocol**.
 </div>
-
-
