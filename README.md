@@ -35,7 +35,7 @@ Document processing runs locally on 64-bit Windows 10 or 11 with no account or s
 | Release asset | What it gives you |
 | --- | --- |
 | `OmniDocZ-Setup-<version>.exe` | The Windows desktop application. Start here for a new installation or update. |
-| `ai_bundle.zip` | Optional offline AI for OCR on scanned pages and automatic background removal. Select it during setup or install and repair it from **AI component…** in the bottom status bar. |
+| `ai_bundle.zip` | Optional offline AI for OCR on scanned pages and automatic background removal. Select it during setup or install and repair it from the AI status indicator in the bottom bar (or **AI component…** in the version menu). |
 | `fonts_bundle_essential.zip` and `fonts_bundle_full.zip` | Optional typeface collections for document editing. Install during setup or via **Get More** in the editor’s font menu. You can also import your own fonts. |
 
 ## Documents and PDFs
@@ -83,10 +83,6 @@ Create or edit workbooks in a full spreadsheet grid, use **Quick Cleanup** on th
 | **Cleanup & import** | Run one-click **Quick Cleanup** (convert text to numbers, remove empty rows, auto-fit columns, apply table styling), plus multi-key sorting, filtering, deduplication, text-to-columns, paste special, and CSV or PDF table import. |
 | **Charts & objects** | Build column, bar, line, and pie charts from selected cells, and attach cell comments, hyperlinks, and images. |
 | **Print & document export** | Configure paper size, orientation, margins, and print area. Export the whole workbook or active sheet, or insert sheet data directly into an editable document table. |
-
-<p align="center">
-  <img src="docs/screenshots/excel-studio.png" alt="OmniDocZ Excel Studio spreadsheet grid with formulas, formatting, and charts" width="840">
-</p>
 
 ## OCR and scan cleanup
 
