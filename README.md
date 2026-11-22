@@ -1,178 +1,111 @@
-[README.md](https://github.com/user-attachments/files/34949394/README.md)
-
-
+[README.md](https://github.com/user-attachments/files/35222455/README.md)
 <div align="center">
 
-# 📄 OmniDocZ
-### *The Private, Multi-Format Desktop Suite for PDFs, Office Documents & Edge AI*
-**Part of the NightmareZProtocol Ecosystem • Crafted by NightmareZDev**
+# OmniDocZ
 
-[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-0078D6?logo=windows&logoColor=white)]()
-[![Roadmap](https://img.shields.io/badge/Linux%20%26%20macOS-In%20Roadmap-orange.svg)]()
-[![Multi-Format](https://img.shields.io/badge/Formats-PDF%20%7C%20DOCX%20%7C%20XLSX%20%7C%20ODS%20%7C%20ODT%20%7C%20Images-blueviolet)]()
-[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%2F%20Zero%20Telemetry-emerald?logo=shield&logoColor=white)]()
-[![NightmareZProtocol](https://img.shields.io/badge/Initiative-NightmareZProtocol-purple.svg)]()
-[![License](https://img.shields.io/badge/License-Free-violet)]()
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Project-ff5e5b?logo=kofi&logoColor=white)](https://ko-fi.com/nightmarezdev)
+**Edit PDFs, work with spreadsheets, and turn scans into searchable documents on your PC.**
 
-<p align="center">
-  <b>Convert, edit, and merge across PDFs, Word (DOCX/ODT), Excel (XLSX/ODS/CSV), and images seamlessly with live spreadsheet modeling and edge AI—100% offline, zero cloud telemetry.</b>
-</p>
+Combine Word files, PDFs, spreadsheets, and photos. Recover text and tables, prepare files for sharing, and process a whole batch from one Windows desktop app.
 
-<p align="center">
+<p>
   <a href="https://github.com/Nightmare13123/OmniDocZ/releases/latest">
-    <img src="https://img.shields.io/badge/Download_OmniDocZ_for_Windows-Latest_Release_%28.exe%29-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Download OmniDocZ for Windows" height="44"/>
+    <img src="https://img.shields.io/badge/Download_for_Windows-Latest_Release_%28.exe%29-2563EB?style=for-the-badge&amp;labelColor=1D4ED8&amp;logo=windows&amp;logoColor=white" alt="Download OmniDocZ for Windows from GitHub Releases" width="481" height="36">
   </a>
 </p>
 
-<p align="center">
-  <sub>Windows 10 / 11 (64-bit) • Free &amp; 100% Local • No Python required</sub>
-</p>
+**Windows 10 / 11 (64-bit) · Free and ad-free · Files processed locally**
 
-[Download](#-quick-start) • [The Vision](#-the-nightmarezprotocol-vision) • [Key Differences](#-why-omnidocz) • [Multi-Format Engine](#-universal-multi-format-conversion--merging) • [Features](#-key-features) • [CLI](#-command-line-interface-cli) • [Quick Start](#-quick-start)
+[Download](#download-and-install) · [PDFs and documents](#pdfs-and-documents) · [Spreadsheets](#excel-studio-beta) · [OCR](#ocr-and-text-extraction) · [Images](#image-tools) · [Security](#pdf-security-and-forms) · [Batch processing](#batch-processing-and-preferences)
 
 </div>
 
----
+## Download and install
 
-## 🌐 The NightmareZProtocol Vision
+1. Open the [latest release](https://github.com/Nightmare13123/OmniDocZ/releases/latest).
+2. In **Assets**, download **`OmniDocZ-Setup-<version>.exe`**.
+3. Run the installer and open **OmniDocZ**. Drag files into the app or use **Browse File** to get started. The interactive guide walks you through the main tools.
 
-**OmniDocZ** is the foundational milestone of **NightmareZProtocol**—an upcoming umbrella ecosystem of 100% local, private, and ad-free desktop applications designed to solve everyday digital problems without subscription barriers or privacy trade-offs.
+The installer includes what you need to run OmniDocZ on 64-bit Windows 10 or 11. Document processing runs on your PC, with no account or subscription required. Downloads and update checks use an internet connection.
 
-Modern everyday software is increasingly broken: basic utilities demand recurring monthly fees, inject intrusive ads, track user activity, or force confidential documents onto third-party cloud servers. **NightmareZProtocol** is an alternative built on core principles:
+| Release asset | What it gives you |
+| --- | --- |
+| `OmniDocZ-Setup-<version>.exe` | The Windows desktop application. Start here for a new installation or an update. |
+| `ai_bundle.zip` | Optional local AI for scanned text recognition and automatic background removal. Select AI during setup when offered, or install it from the AI status indicator in the app. The AI tools run offline after installation. |
+| `fonts_bundle_essential.zip` and `fonts_bundle_full.zip` | Optional typeface collections for document editing. Choose the Essential or Full bundle in setup or under **Get More** in the editor’s font menu. You can also add your own fonts. |
 
-* 🛡️ **Sovereign & Local-First:** Your hardware does the computing; your storage holds the data. No external server dependencies or background telemetry.
-* 🚫 **Zero Ads, Zero Dark Patterns:** Pure functional utility without artificial locks, paywalls, or nag screens.
-* ⚡ **High-Performance Simplicity:** Fast, lightweight, and purpose-built native software.
-* 🧩 **The First Step of Many:** OmniDocZ tackles the universal friction of document management and office workflows. Future standalone tools will expand this ecosystem under the same shared ethos.
+## PDFs and documents
 
----
+### Edit text and build pages
 
-## 💡 Why OmniDocZ?
+- **Edit text on the page.** Turn on **Edit Text** and double-click a line or paragraph to correct it in place. OmniDocZ tries to match the existing font, size, color, and styling. Press **Enter** to apply changes or **Shift + Enter** to add a line where supported. Scanned pages use the optional OCR component.
+- **Compose a document.** Start with a blank page or build on an existing file. Add formatted text, movable text boxes, images, hyperlinks, and editable tables. Resize and position elements on the page and export a table to XLSX.
+- **Draw, highlight, and revise.** Use the pen and highlighter with adjustable color and thickness, erase strokes, and undo or redo edits. Rotate pages or adjust their dimensions using A4, Letter, Legal, square, or a custom size. Zoom from 40% to 250% with the on-screen controls or **Ctrl + mouse wheel**.
 
-Most document tools force an uncomfortable trade-off: **expensive recurring subscriptions** (e.g., Adobe Acrobat, MS Office) or **uploading confidential files to third-party web converters** (e.g., iLovePDF, SmallPDF).
+### Combine, organize, and extract
 
-**OmniDocZ** delivers an enterprise-grade desktop suite built from the ground up for **absolute privacy (100% Local / Zero Cloud Telemetry)** with universal format interoperability:
+- **Merge different file types.** Load multiple PDFs, Word or OpenDocument files, spreadsheets, and images into one workspace. For example, put a Word cover, PDF agreement, formatted spreadsheet, and scanned receipts into one PDF.
+- **Reorder at either level.** Move entire source files or arrange individual pages with thumbnail previews. Add blank pages, delete unwanted pages, and add files to the current workspace as you go.
+- **Save only the pages you need.** In **Extractor & Splitter**, enter individual pages or ranges such as `1, 3, 5-8`, or select even pages, odd pages, or either half. Export the selection as a document, spreadsheet, or image, depending on the chosen format.
 
-| Feature | Cloud Web Converters | Proprietary Suites (Acrobat, Foxit) | OmniDocZ |
-| :--- | :---: | :---: | :---: |
-| **Data Privacy** | ⚠️ Uploaded to external servers | ⚠️ Cloud telemetry & account tracking | 🛡️ **100% Local (Never leaves your PC)** |
-| **Pricing Model** | Daily quotas / Paid plans | Costly monthly subscription | 💚 **Free & Subscription-free** |
-| **Format Flexibility** | Limited conversion pairs | Rigid format silos | 🔄 **Universal PDF ↔ Office ↔ Images ↔ ODF** |
-| **Direct Text Editing** | ❌ Opaque white boxes on top | ✅ Supported | ✅ **Double-click to edit live vector text** |
-| **Built-in Spreadsheet** | ❌ Not available | ❌ Simple table export only | 📊 **Full Excel grid with live formula engine** |
-| **Offline AI & OCR** | ⚠️ Remote server processing | ⚠️ Requires login & cloud access | 🤖 **Local RapidOCR + Rembg (Edge AI)** |
-| **Terminal Automation** | ❌ None | ❌ Limited or enterprise-only add-on | 💻 **Built-in CLI with 16 headless commands** |
+### Preview, optimize, and export
 
----
+- **Fit a file-size limit.** Set a target in MB when the output supports it. Choose **Original**, **Balanced**, **High**, or **Ultra** quality. For PDFs, the app estimates the minimum achievable size and shows which quality levels fit the chosen limit.
+- **Preview changes as you work.** Turn on **Live Preview** to see how color inversion, page numbers, and watermarks will look before you save.
+- **Prepare consistent pages.** Add a text or logo watermark with adjustable opacity. Configure page numbers, headers, and footers, including position, format, font, starting number, and whether to skip the cover.
 
-## 🔄 Universal Multi-Format Conversion & Merging
+| Task | Formats and options |
+| --- | --- |
+| Open or combine documents | PDF, Word `.docx`, Writer `.odt`, Excel `.xlsx` and `.xls`, Calc `.ods`, `.csv`, PNG, JPEG, and WebP |
+| Export documents or selected pages | PDF, archival PDF/A-1b option, DOCX, ODT, XLSX, ODS, PNG, and JPEG |
+| Export tabular data | Extract detected PDF tables to XLSX, ODS, or CSV. Use **Extractor & Splitter** for CSV output from selected PDF pages. |
 
-OmniDocZ breaks format silos by natively handling and transforming across open and proprietary document standards:
+Output options vary by tool and by the type of content you open.
 
-* **PDF ↔ Microsoft Word & ODF:** Convert PDFs to formatted `.docx` / `.odt` and compile text documents back into pixel-perfect PDFs.
-* **PDF ↔ Excel Spreadsheets:** Automatically extract tabular records from financial PDFs into editable `.xlsx`, `.ods`, or `.csv` sheets with formula support.
-* **Images ↔ Multi-page Documents:** Convert image collections (PNG, JPG, WEBP, TIFF) into consolidated PDFs, or extract high-DPI raster pages from any document.
-* **Universal Document Unifier:** Merge completely different file types (e.g. 1 Word document + 2 PDF contracts + 3 scanned images + 1 Excel balance sheet) into a single, cohesive master document in seconds.
-* **Archival Standards (PDF/A):** Export ISO-compliant PDF/A-1b documents for long-term institutional and legal preservation.
+## Excel Studio (Beta)
 
----
+Create or edit workbooks in the spreadsheet grid, then switch to **Docs Mode** to work with the print layout. Open XLSX, XLS, ODS, and CSV. Save a workbook as XLSX or ODS, or export the active sheet to CSV.
 
-## ✨ Key Features
+| In the grid | What you can do |
+| --- | --- |
+| **Workbooks and navigation** | Add, rename, duplicate, reorder, and color-code sheet tabs. Insert, delete, hide, and resize rows and columns. Freeze panes, zoom, jump to cells, and toggle gridlines or headings. |
+| **Formulas and auditing** | Use AutoSum, a function assistant, and formulas such as `SUM`, `IF`, `COUNTIF`, and `VLOOKUP`. Show formulas and their precedents or dependents, and choose automatic or manual recalculation. |
+| **Formatting** | Set fonts, colors, borders, alignment, and number formats. Wrap text, merge cells, and apply conditional formatting or data validation. |
+| **Data cleanup and import** | Find and replace, sort with multiple keys, filter by value or condition, remove duplicates or empty rows, split text into columns, and convert numeric text to numbers. Import a CSV or PDF tables into sheets, or paste all, values only, or formats only. |
+| **Charts and supporting details** | Create column, bar, line, and pie charts from selected data. Add cell comments, hyperlinks, and images. |
+| **Print layout and PDF export** | Choose paper size, orientation, margins, and print area. Preview the active sheet or whole workbook, export to PDF, or use **Insert into Document** to bring data from the active sheet into an editable table. |
 
-### ✏️ True In-Situ Vector Text Editing
-Say goodbye to clumsy floating patches and broken alignments:
-* **Double-click** any line or paragraph to edit its content in-place.
-* **Press Enter** to save changes immediately or **Shift + Enter** to expand new lines downward.
-* Automatically detects and preserves original font families, weights, colors, sizes, and layout margins.
+## OCR and text extraction
 
-### 📊 Integrated Excel Mode & Spreadsheet Engine
-* Open, view, and edit `.xlsx`, `.xls`, `.ods`, and `.csv` workbooks directly inside the app.
-* Comprehensive **formula calculation**, cell formatting, and row/column manipulation.
-* Seamless bidirectional table extraction between PDF and spreadsheet grids.
+- **Make a scanned PDF searchable.** In **Text Extractor**, choose the searchable PDF tool to add a selectable text layer over the scanned pages. The exported PDF keeps its appearance while letting you search, select, and copy recognized text. Choose the European/Spanish or English-only profile, set the resolution from 150 to 450 DPI, and optionally enhance the image before recognition.
+- **Copy text from part of a page.** Use **Extract Text** in the editor and draw a box around the text you want. Copy the result to the clipboard, or use **Edit Text** to correct recognized text in place.
+- **Recover and reformat content.** Open a PDF, DOCX, ODT, or supported image in **Text Extractor**. Edit the extracted text with headings, bold, italics, and underline, then export it in the format you need.
+- **Clean up a scan or photo.** Automatically detect page edges, crop, and correct perspective, adjust the four corners by hand, or straighten tilted content on its own.
 
-### 🤖 Decoupled Edge AI & Computer Vision
-* **Searchable OCR Layer**: Injects an invisible text layer over scanned documents or photographs, enabling text selection, copying, and full-text search.
-* **Smart Perspective Correction & Auto-Deskew**: Automatically detects document boundaries in tilted photos or crooked scans and corrects perspective distortion.
-* **Offline Background Removal (`rembg`)**: Isolate stamps, signatures, and logos using local neural networks without an internet connection.
-* **Lightweight modular architecture**: The core application remains compact; optional AI weights can be downloaded on-demand.
+OCR on scanned pages and images requires the optional AI component.
 
-### 🔒 Hardened Security & Cryptography
-* **AES-256 Encryption**: Password protection with granular permissions (printing, copying, content modification).
-* **Irreversible Permanent Redaction (Blackout)**: Sanitizes sensitive data by removing both visual strokes and underlying raw text streams (preventing extraction via inspection tools).
-* **Cryptographic Digital Signatures** (PAdES / PKCS#7).
+## Image tools
 
-### ⚡ Batch Automation Engine
-* Apply compression, digital watermarks, page numbering, conversion, or orientation correction to hundreds of documents simultaneously in seconds.
+- **Preview images and PDF pages.** Browse the file queue and the pages of a PDF, zoom or view at actual size, and check image dimensions and file size.
+- **Remove backgrounds.** Use the optional local AI on one or more images and save transparent PNGs. Choose from available background-removal models and optionally fill gaps in the result. Use the manual brush, selection, or crop tools for hands-on cleanup.
+- **Turn images into outlines.** Generate line art for coloring or trace only the outside silhouette for a sticker, logo, or stencil. Save on a white background as JPEG or with transparency as PNG.
+- **Lay out photos on A4.** Turn images or PDF pages into a printable album or contact sheet. Place 1, 2, 3, 4, 6, or 8 images per page, or let OmniDocZ arrange them automatically while preserving proportions.
 
-### 🌐 Global & Accessible UI
-* Refined modern **Dark Mode** interface with an **Interactive Onboarding Tour** for first-time users.
-* Fully translated into **6 languages**: English, Spanish, French, German, Portuguese, and Italian.
+## PDF security and forms
 
----
+| Tool | What you can do |
+| --- | --- |
+| **Password protection** | Encrypt PDFs with AES-256. Set an opening password and configure permissions for printing, copying, and editing. Remove password protection using the current password. |
+| **Permanent redaction** | Mark areas manually or find occurrences of a phrase. Apply redaction to remove the underlying content in the marked areas and save a redacted copy. |
+| **Signatures** | Sign with a `.pfx` or `.p12` certificate (PAdES / PKCS#7), add a visible stamp or an image of a handwritten signature, or create a PDF signature field for later signing. |
+| **Interactive forms** | Fill existing PDF form fields such as text boxes, checkboxes, and dropdowns. Save an editable copy or flatten the completed fields into the page. |
+| **Metadata** | Review, change, or clear PDF fields such as title, author, subject, keywords, creator, and producer. |
 
-## 💻 Command Line Interface (CLI)
+## Batch processing and preferences
 
-For system administrators, developers, and headless pipelines, OmniDocZ includes a dedicated console engine (`cli.py`):
-
-```bash
-# Merge mixed formats (PDFs, Word, images) into a single master document
-python cli.py merge cover.docx chapter1.pdf scan.jpg -o final_document.pdf
-
-# Convert a PDF into an editable Word document (.docx)
-python cli.py convert-docx document.pdf -o editable.docx
-
-# Extract PDF financial tables into an Excel spreadsheet (.xlsx)
-python cli.py extract balance_sheet.pdf -o data.xlsx
-
-# Encrypt a PDF with AES-256 and custom permissions
-python cli.py encrypt contract.pdf -o protected.pdf -p "MySecurePassword"
-
-# Permanently sanitize and redact confidential data
-python cli.py redact payroll.pdf -o sanitized_payroll.pdf -t "CONFIDENTIAL"
-
-# Add an invisible OCR text layer to scanned pages
-python cli.py ocr-layer scan.pdf -o searchable_scan.pdf --lang en,es
-```
+- **Process a queue in one run.** Apply output conversion, compression, a target size, page rotation, color inversion, numbering, or a watermark across multiple files. Apply AES-256 encryption when exporting PDFs. Choose this workflow when you want individual outputs from multiple source files.
+- **Use the interface in your language.** Switch among English, Spanish, French, Portuguese, German, and Italian. In Settings you can replay the interactive guide, review or adjust recommended queue and page limits, and enable GPU acceleration for OCR or background removal on compatible hardware.
+- **Manage updates and get help in the app.** Check for new versions, manage the AI component, reopen your last document, or send the developer a bug report or suggestion.
 
 ---
 
-## 🚀 Quick Start
-
-### Option 1: Windows Installer (Recommended — No Python Required)
-1. Click the big **[Download OmniDocZ for Windows](https://github.com/Nightmare13123/OmniDocZ/releases/latest)** button above (or open the **Releases** page).
-2. Under **Assets**, download **`OmniDocZ-Setup-4.4.0.exe`** (or the latest installer version).
-3. Run the installer and launch **OmniDocZ**. *(You can enable the optional local AI engine during setup or download it later from **Settings → AI Component**).*
-
-### System Requirements
-* **Operating System:** Windows 10 or Windows 11 (64-bit). *(Linux & macOS planned in the roadmap)*.
-* **Python (only if running from source):** 3.10 or higher.
-
-### Option 2: Running from Source
-```bash
-# 1. Clone the repository
-git clone https://github.com/Nightmare13123/OmniDocZ.git
-cd OmniDocZ
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Launch the desktop application
-python main.py
-```
-
----
-
-## ☕ Support the Project
-
-OmniDocZ is an independent, open-ecosystem project committed to keeping document processing private, powerful, and free from intrusive paywalls. If this software streamlines your workflow, consider supporting its ongoing development:
-
-<div align="center">
-
-[![Donate on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20NightmareZDev-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/nightmarezdev)
-
-<br/>
-
-Engineered with dedication by **NightmareZDev** as the foundational stepping stone of **NightmareZProtocol**.
-</div>
+OmniDocZ is developed by **NightmareZDev** and is part of **NightmareZProtocol**. If the app helps with your work, you can [support its development on Ko-fi](https://ko-fi.com/nightmarezdev).
